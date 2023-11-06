@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="土购网,电商,农产品" />
+    <meta name="description" content="这是一个关于农产品的电商网站。" />
+    <title>购物吧</title>
+    <link rel="shortcut icon" href="./res/images/logo.gif" type="image/png" />
+    <!-- 引入样式文件 -->
+    <!-- <link rel="stylesheet" href="./dist/css/app.css"> -->
+    <!-- 引入swiper.css -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/_swiper@11.0.3@swiper/swiper-bundle.css"
+    />
+    <link rel="stylesheet/less" href="./style/reset.less" />
+    <link rel="stylesheet/less" href="./style/app.less" />
+    <link rel="stylesheet/less" href="./style/login.less" />
+    <link rel="stylesheet/less" href="./style/nav.less" />
+    <link rel="stylesheet/less" href="./style/category.less" />
+    <link rel="stylesheet/less" href="./style/goods.less" />
+    <link rel="stylesheet/less" href="./style/aside.less">
+    <!-- 引入icon-font -->
+    <link rel="stylesheet" href="./res/icon-font/iconfont.css" />
+    <!-- 引入编译less的文件 -->
+    <script src="node_modules/_less@3.12.2@less/dist/less.js"></script>
+  </head>
+  <body>
+    <!-- 头部 -->
+    <header>
+      <!-- 顶部信息 -->
+      <div class="top-nav">
+        <div class="container clearfix">
+          <ul class="left-nav left">
+            <li><a href="index.html">您好！欢迎来到购物吧！</a></li>
+            <li class="login" data-type="login">
+              <a href="" data-type="login">请登录</a>
+            </li>
+            <li class="register" data-type="register">
+              <a href="" data-type="register">免费注册</a>
+            </li>
+          </ul>
+          <ul class="right-nav right">
+            <li>
+              <i class="iconfont icon-a-6_huaban1"></i><a href="">购物车</a>
+            </li>
+            <li>
+              <a href="">服务热线：<span>8004001234</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 搜索 -->
+      <div class="top-search-container">
+        <div class="container clearfix">
+          <!-- logo -->
+          <a href="index.html" class="left-icon left">
+            <img src="res/images/logo.gif" alt="logo" />
+          </a>
+          <!-- 搜索 -->
+          <div class="search left">
+            <input type="search" placeholder="请输入您要搜索的内容" />
+            <button class="btnsearch">搜索</button>
+          </div>
+          <!-- 购物车按钮 -->
+          <div class="shopping">
+            <button class="left">
+              <i class="iconfont icon-a-6_huaban1"></i>&nbsp;&nbsp;<span
+                class="shopping-text"
+                >我的购物车</span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- 导航 -->
+      <nav class="top_sub_nav_container">
+        <div class="nav_container"></div>
+      </nav>
+      <!-- 轮播图 -->
+      <nav class="top_banner_container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="https://m.360buyimg.com/babel/jfs/t20261030/185753/29/41312/120851/6540e810F1897cdd6/32edae1437c10c9b.png"
+                alt="banner"
+                style="width: 100%; height: 500px"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://m.360buyimg.com/babel/jfs/t20261030/185698/24/41750/50995/6540a77dF60c918e2/f83495bf5fe60293.jpg"
+                alt="banner"
+                style="width: 100%; height: 500px"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="https://m.360buyimg.com/babel/jfs/t20261030/173485/20/41638/139278/6540a0a3Faf0cdcec/d0eca060372ce679.jpg"
+                alt="banner"
+                style="width: 100%; height: 500px"
+              />
+            </div>
+          </div>
+          <!-- 如果需要分页器 -->
+          <div class="swiper-pagination"></div>
+
+          <!-- 如果需要导航按钮 -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- 如果需要滚动条 -->
+          <!-- <div class="swiper-scrollbar"></div> -->
+          <!-- 分类导航 -->
+          <div class="category-nav"></div>
+        </div>
+      </nav>
+    </header>
+    <!-- 主体部分 -->
+    <main>
+      <div class="main-container"></div>
+    </main>
+    <!-- 尾部 -->
+    <footer>
+      <ul class="wrp">
+        <li>
+          <i class="iconfont icon-31quanbushangpin"></i>&nbsp;&nbsp;品类齐全，轻松购物
+        </li>
+        <li>
+          <i class="iconfont icon-jinkoushangpin"></i>&nbsp;&nbsp;多仓直发，极速配送
+        </li>
+        <li>
+          <i class="iconfont icon-haoping"></i>&nbsp;&nbsp;正品保障 精致生活
+        </li>
+        <li>
+          <i class="iconfont icon-zhi"></i>&nbsp;&nbsp;天天特价
+          特惠体验
+        </li>
+      </ul>
+      <div class="foot clearfix">
+        <em class="left">
+          <a href=""
+            ><img
+              src="https://img.alicdn.com/tps/i2/T1C3z7FudfXXcsE9Te-40-42.png"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              src="https://gw.alicdn.com/tfs/TB1HxCbreL2gK0jSZPhXXahvXXa-65-70.gif"
+              alt=""
+          /></a>
+          <a href=""
+            ><img
+              src="https://img.alicdn.com/tps/i4/T1VVv9FABeXXbtCInf-38-42.png"
+              alt=""
+          /></a>
+        </em>
+        <div class="right">
+        <p>
+          <a href="">关于我们</a>
+          <a href="">联系我们</a>
+          <a href="">隐私声明</a>
+          <a href="">服务条款</a>
+          <a href="">招贤纳士</a>
+          <a href="">商家入住</a>
+        </p>
+        <p>
+          京公网安备
+          1100000XXXXX号京ICP备110XXX号ICP药品医疗器械网络服务备案药品网络交易第三方平台备案凭证互联网出版许可证编号新出网证(京)字150号
+        </p>
+      </div>
+      </div>
+    </footer>
+  </body>
+  <!-- 引入JQ -->
+  <script src="./node_modules/_jquery@3.5.1@jquery/dist/jquery.js"></script>
+  <!-- 引入swiper.js -->
+  <script src="./node_modules/_swiper@11.0.3@swiper/swiper-bundle.js"></script>
+  <script src="./js/tools.js"></script>
+  <script src="js/app.js"></script>
+</html>
